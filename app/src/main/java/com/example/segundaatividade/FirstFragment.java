@@ -39,7 +39,7 @@ public class FirstFragment extends Fragment {
         ArrayList<Aluno> dados = new ArrayList<>();
         dados.add(new Aluno("Gabriel Alexandre Victório", "233138", "gabriel.victorio@edu.unipar.br"));
         dados.add(new Aluno("Thiago Correa de Souza", "193583", "thiago.souza@edu.unipar.br"));
-        dados.add(new Aluno("Vitor Ferraresi Pegino", "215993", "thiago.souza@edu.unipar.br"));
+        dados.add(new Aluno("Vitor Ferraresi Pegino", "215993", "vitor.pegino@edu.unipar.br"));
 
         AlunoListAdapter adapter = new AlunoListAdapter(dados);
         rv.setAdapter(adapter);
